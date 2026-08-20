@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openship.io/openship.schema.json",
+  "framework": "vite",
+  "packageManager": "npm",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "productionMode": "static",
+  "buildImage": "node:22-bookworm-slim"
+}
